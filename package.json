@@ -4,6 +4,15 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "description": "jCal to readable JSON 2-way-convert ",
+  "keywords": [
+    "jCal",
+    "iCal",
+    "iCalendar",
+    "rfc7265",
+    "ics"
+  ],
+  "author": "linlilulll@gmail.com",
   "license": "MIT",
   "repository": "https://github.com/llldar/pretty-jcal",
   "devDependencies": {
