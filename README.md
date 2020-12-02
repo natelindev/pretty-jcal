@@ -118,18 +118,18 @@ Example PrettyJCAL JSON:
 
 The typescript typing does not verify against jCal standard, it's up to user to make sure only valid properties and components were used.
 
-| Function name   | Parameter               | Return value            | Description                                     |
+| Function name   | Parameter type          | Return value type       | Description                                     |
 | --------------- | ----------------------- | ----------------------- | ----------------------------------------------- |
 | jcal2prettyJCAL | JCALComponentNode       | PrettyJCALComponentNode | Convert standard jCal to prettyJCAL JSON format |
 | prettyJCAL2jcal | PrettyJCALComponentNode | JCALComponentNode       | Convert prettyJCAL JSON format to standard jCal |
 
 ### JCALComponentNode (Array type)
 
-| Property | Description                                                                   |
-| -------- | ----------------------------------------------------------------------------- |
-| 0        | Component name                                                                |
-| 1        | Component properties                                                          |
-| 2        | Children components, will be directly the child if array there's only 1 child |
+| Property | Description          |
+| -------- | -------------------- |
+| 0        | Component name       |
+| 1        | Component properties |
+| 2        | Children components  |
 
 ### JCALPropertyNode (Array type)
 
@@ -142,11 +142,11 @@ The typescript typing does not verify against jCal standard, it's up to user to 
 
 ### PrettyJCALComponentNode (Object type)
 
-| Property   | Description                                                                   |
-| ---------- | ----------------------------------------------------------------------------- |
-| Name       | Component name                                                                |
-| properties | Component properties                                                          |
-| components | Children components, will be directly the child if array there's only 1 child |
+| Property   | Description          |
+| ---------- | -------------------- |
+| Name       | Component name       |
+| properties | Component properties |
+| components | Children components  |
 
 ### PrettyJCALPropertyNode (Object type)
 

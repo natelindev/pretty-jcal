@@ -1,7 +1,7 @@
 export type JCALComponentNode = [
   name: string,
   properties: JCALPropertyNode[],
-  components: JCALComponentNode | JCALComponentNode[]
+  components: JCALComponentNode[]
 ];
 
 export type JCALPropertyNode = [
@@ -14,7 +14,7 @@ export type JCALPropertyNode = [
 export type PrettyJCALComponentNode = {
   name: string;
   properties: PrettyJCALPropertyNode[];
-  components: PrettyJCALComponentNode | PrettyJCALComponentNode[];
+  components: PrettyJCALComponentNode[];
 };
 
 export type PrettyJCALPropertyNode = {
